@@ -42,6 +42,8 @@ public final class FinalKeyword extends CydeoStudent{
     - Final Method : Prevent Method Overridding
     - Final Class : Prevent Inheritance
 
+    -Constructor can not be final
+
     - Private and final methods can be overloaded but they cannot be overridden
 
      */

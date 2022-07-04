@@ -8,8 +8,8 @@ public class Employee extends Person{
     private double salary;
 
 
-    public Employee(String name, char gender, int age, LocalDate dateOfBirth, String jobTitle, double salary) {
-        super(name, gender, age, dateOfBirth);
+    public Employee(String name, char gender, LocalDate dateOfBirth, String jobTitle, double salary) {
+        super(name, gender,dateOfBirth);
         setJobTitle(jobTitle);
         setSalary(salary);
     }
@@ -36,6 +36,10 @@ public class Employee extends Person{
     }
 
 
+
+
+
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -43,7 +47,7 @@ public class Employee extends Person{
                 ", gender=" + getGender() +
                 ", age=" + getAge() +
                 ", dateOfBirth=" + getDateOfBirth() +
-                "  jobTitle='" + jobTitle + '\'' +
+                ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
                 '}';
     }

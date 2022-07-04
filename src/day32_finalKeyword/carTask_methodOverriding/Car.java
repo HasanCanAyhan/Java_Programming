@@ -17,7 +17,7 @@ public class Car {
         setPrice(price);
     }
 
-    static { // onne times - one copy
+    static { // one times - one copy
         numberOfWheels = 4;
         hasBattery = true;
     }
