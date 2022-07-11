@@ -1,6 +1,5 @@
 package day01_introToProgramming;
 
-import java.sql.SQLOutput;
 
 public class HelloCydeo {
 
