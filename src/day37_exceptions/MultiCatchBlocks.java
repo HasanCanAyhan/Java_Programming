@@ -26,10 +26,11 @@ public class MultiCatchBlocks {
         }catch (IndexOutOfBoundsException e){
             System.out.println("Fourth Catch Block");
             e.printStackTrace();
-        }catch (RuntimeException e){ // Runtime is our guarantee!:)
+        }catch (RuntimeException e){ // Runtime is our guarantee!:) // Parent exception class can not be placed before child exception class
             System.out.println("Fifth Catch Block");
             e.printStackTrace();
         }
+
 
 
         System.out.println("Program1 ended");

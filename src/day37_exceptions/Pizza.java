@@ -1,6 +1,6 @@
 package day37_exceptions;
 
-public class Pizza { // Parent Class
+public class Pizza {
 
     private char size;
     private int numberOfCheeseTopping, numberOfPepperoniTopping;
