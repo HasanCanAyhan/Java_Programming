@@ -36,7 +36,7 @@ public class ThrowsKeyword2 {
 
     public static void method1() throws InterruptedException {
         System.out.println("Hello World");
-        pauseFor5Seconds();
+        pauseFor5Seconds(); // we take error, if we dont use throws InterruptedException
         System.out.println("Hello Cydeo");
     }
 

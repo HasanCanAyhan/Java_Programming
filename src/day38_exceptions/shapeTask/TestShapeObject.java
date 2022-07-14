@@ -6,7 +6,7 @@ public class TestShapeObject {
 
         Circle circle1 = new Circle(5);
 
-        circle1.setRadius(-5);
+        //circle1.setRadius(-5);
 
 
 
